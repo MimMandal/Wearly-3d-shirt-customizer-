@@ -1,0 +1,12 @@
+node_modules/
+client/node_modules/
+server/node_modules/
+dist/
+client/dist/
+*.log
+client-dev.log
+server-dev.log
+.env
+.env.*
+server/.env
+client/.env
