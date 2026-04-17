@@ -13,7 +13,6 @@ const Shirt = () => {
   const logoTexture = useTexture(snap.logoDecal);
   const fullTexture = useTexture(snap.fullDecal);
 
-  // Set anisotropy for textures
   logoTexture.anisotropy = 16;
   fullTexture.anisotropy = 16;
 
@@ -31,7 +30,7 @@ const Shirt = () => {
         dispose={null}
       >
         {snap.isFullTexture && (
-          <Decal 
+          <Decal
             position={[0, 0, 0.04]}
             rotation={[0, 0, 0]}
             scale={0.72}
@@ -41,19 +40,15 @@ const Shirt = () => {
           />
         )}
         {snap.isLogoTexture && (
-          <Decal 
+          <Decal
             position={[0, 0, 0.15]}
             rotation={[0, 0, 0]}
             scale={0.15}
             map={logoTexture}
             depthTest={false}
             depthWrite={true}
-
-            
           />
         )}
-
-       
       </mesh>
     </group>
   )
