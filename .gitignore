@@ -10,3 +10,4 @@ server-dev.log
 .env.*
 server/.env
 client/.env
+/package-lock.json

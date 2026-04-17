@@ -3,7 +3,7 @@ const config = {
     backendUrl: "/api/v1/images",
   },
   production: {
-    backendUrl: "https://devswag.onrender.com/api/v1/images",
+    backendUrl: "/api/v1/images",
   },
 };
 
